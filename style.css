@@ -1,16 +1,19 @@
 section {
-    border-color: black;
+    background-color: pink;
+    display: flex;
+    border: black 2px solid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
 }
 .container {
-    border-color: blue;
+    border: blue 2px solid;
 }
 .photo {
-    border: 100px coral;
+    display: flex;
+    flex: content center;
+    border: green solid;
 }
 .img {
-    vertical-align: middle;
     width: 50px;
     height: 50px;
     border-radius: 50%;

@@ -1,6 +1,6 @@
 section {
     background-color: pink;
-    display: flex;
+    /* display: flex; */
     border: black 2px solid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
@@ -19,5 +19,18 @@ section {
     border-radius: 50%;
 }
 .customer {
-    height: 50px;
+    border: 2px solid red;
+}
+
+.test {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#people {
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
